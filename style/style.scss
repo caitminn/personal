@@ -1,0 +1,32 @@
+html {
+	font-size: 16px;
+}
+body {
+	margin: 0;
+	font-size: 1rem;
+}
+.main {
+	height: 100vh;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	background: url('../assets/Crystal_07.png'), center center no-repeat;
+
+
+	// background: linear-gradient(45deg, rgba(173, 133, 181, 0.65) 23%,rgba(181, 99, 159, 0.65) 77%), url(http://itscaitlinlucy.com/wp-content/uploads/2016/06/background.png) center center no-repeat;
+    background-size: cover;
+}
+.about {
+	padding-top: 120px;
+	h1 {
+		margin: 0;
+	}
+	h3 {
+
+	}
+}
+.skills {
+	.devicons {
+		font-size: 3.2rem;
+	}
+}
